@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+<meta charset="UTF-8">
+<title>DevHub — Communauté de développeurs</title>
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<style>
+body {
+  margin: 0;
+  font-family: Arial, Helvetica, sans-serif;
+  background: #0f172a;
+  color: #e5e7eb;
+}
+
+header {
+  min-height: 100vh;
+  background: linear-gradient(180deg, #1e3a8a, #020617);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  padding: 40px;
+}
+
+header h1 {
+  font-size: 3.5em;
+  margin-bottom: 10px;
+}
+
+header p {
+  max-width: 650px;
+  font-size: 1.2em;
+  opacity: 0.95;
+}
+
+.button {
+  margin-top: 30px;
+  padding: 15px 35px;
+  background: #38bdf8;
+  color: #020617;
+  text-decoration: none;
+  font-weight: bold;
+  border-radius: 10px;
+  font-size: 1.1em;
+}
+
+section {
+  padding: 80px 20px;
+  max-width: 1100px;
+  margin: auto;
+}
+
+section h2 {
+  text-align: center;
+  font-size: 2.3em;
+  margin-bottom: 30px;
+}
+
+section p {
+  text-align: center;
+  max-width: 800px;
+  margin: auto;
+  font-size: 1.05em;
+}
+
+.card {
+  background: #020617;
+  padding: 35px;
+  border-radius: 18px;
+  border: 1px solid #1e293b;
+}
+
+.center {
+  text-align: center;
+}
+
+ul {
+  list-style: none;
+  padding: 0;
+  max-width: 520px;
+  margin: auto;
+}
+
+ul li {
+  margin: 14px 0;
+  font-size: 1.1em;
+}
+
+footer {
+  background: #020617;
+  text-align: center;
+  padding: 30px;
+  font-size: 0.9em;
+  margin-top: 40px;
+}
+</style>
+</head>
+
+<body>
+
+<header>
+  <h1>DevHub</h1>
+  <p>
+    DevHub est une communauté dédiée aux développeurs,
+    créateurs et passionnés de technologie.
+    Un espace d’entraide, de partage et de projets.
+  </p>
+  <a class="button" href="https://discord.gg/peQW8HJkj8" target="_blank">
+    🚀 Rejoindre le Discord
+  </a>
+</header>
+
+<section>
+  <h2>🚀 Le projet DevHub</h2>
+  <p>
+    DevHub a pour objectif de rassembler des développeurs
+    de tous niveaux dans un environnement sérieux,
+    bienveillant et orienté collaboration.
+    Le projet met en avant l’apprentissage,
+    l’entraide et la création de projets concrets.
+  </p>
+</section>
+
+<section>
+  <h2>📅 Événements</h2>
+  <div class="card center" style="max-width:600px; margin:40px auto;">
+    <h3>Aucun événement à venir</h3>
+    <p>
+      Aucun événement n’est prévu pour le moment.<br>
+      Les annonces seront publiées sur le serveur Discord.
+    </p>
+  </div>
+</section>
+
+<section>
+  <h2>🤝 Pourquoi rejoindre DevHub ?</h2>
+  <ul>
+    <li>✔️ Communauté active et sérieuse</li>
+    <li>✔️ Entraide entre développeurs</li>
+    <li>✔️ Projets collaboratifs</li>
+    <li>✔️ Événements et annonces régulières</li>
+  </ul>
+</section>
+
+<section class="center">
+  <h2>Rejoins la communauté</h2>
+  <p>Accède dès maintenant au serveur Discord DevHub.</p>
+  <a class="button" href="https://discord.gg/peQW8HJkj8" target="_blank">
+    👉 Rejoindre DevHub
+  </a>
+</section>
+
+<footer>
+  <p>© 2025 DevHub — Tous droits réservés</p>
+</footer>
+
+</body>
+</html>
